@@ -17,7 +17,7 @@
     width: 100px;
 }
 .logo{
-    background-image: url("amazon\ logo.webp");
+    background-image: url("https://pngimg.com/uploads/amazon/amazon_PNG11.png");
     height: 50px;
     width: 100px;
     background-size: cover;
@@ -137,7 +137,7 @@ span{
 }
 /* hero section */
 .hero-section{
-    background-image: url('amazon\ background.jpg');
+    background-image: url('https://media.istockphoto.com/id/917478870/photo/asian-girl-designer-is-showing-off-the-shirt-she-is-designing.jpg?s=2048x2048&w=is&k=20&c=RVI1tAdzJCel8PvAfo4b7btApTcDCut3pMXgAkwuIrc=');
     height: 400px;
     background-size: cover;
     background-position: center;
@@ -159,9 +159,7 @@ span{
     position: relative;
     width: 80%;
 }
-.hero-msg a {
-    color: #007185;
-}
+
 /* shopping section */
 .box-image {
     width: 100%;
@@ -316,9 +314,9 @@ footer {
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 .nav-logo .logo {
-    background-image: url("amazon logo.webp");
-    height: 50px;
-    width: 100px;
+    background-image: url('https://pngimg.com/uploads/amazon/amazon_PNG11.png');
+    height: 40px;
+    width: 120px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -336,9 +334,17 @@ footer {
 .search-select {
     background: #f3f3f3;
     border: none;
-    padding: 0 12px;
-    font-size: 1rem;
+    padding: 0 8px;
+    font-size: 0.95rem;
     outline: none;
+    height: 100%;
+    color: #555;
+    border-right: 1px solid #ddd;
+    min-width: 55px;
+    width: 55px;
+    max-width: 70px;
+    text-align: center;
+
 }
 .search-input {
     flex: 1;
@@ -367,6 +373,21 @@ footer {
 }
 .nav-cart i {
     font-size: 1.5rem;
+}
+.nav-cart {
+    position: relative;
+}
+.nav-cart::after {
+    content: "2";
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    background: #febd69;
+    color: #111;
+    font-size: 0.8rem;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-weight: bold;
 }
 
 /* Panel improvements */
@@ -406,7 +427,7 @@ footer {
 
 /* Hero section improvements */
 .hero-section {
-    background-image: url('amazon\ background.jpg');
+    background-image: url('https://media.istockphoto.com/id/917478870/photo/asian-girl-designer-is-showing-off-the-shirt-she-is-designing.jpg?s=2048x2048&w=is&k=20&c=RVI1tAdzJCel8PvAfo4b7btApTcDCut3pMXgAkwuIrc=');
     height: 350px;
     background-size: cover;
     background-position: center;
@@ -442,6 +463,8 @@ footer {
 }
 .hero-msg a:hover {
     text-decoration: underline;
+    background: #f3a847;
+    color: #232f3e;
 }
 
 /* Footer improvements */
