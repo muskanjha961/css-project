@@ -23,4 +23,4 @@ You can view the project here 👇
 ##  How to view the project
 1. Download or clone this repo:  
    ```bash
-   git clone https://github.com/muskanjha961/css-project.git
+   git clone https://muskanjha961.github.io/css-project/
