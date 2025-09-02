@@ -13,7 +13,11 @@ I tried to recreate the look of Amazon’s homepage with a simple layout, naviga
 - How to use **flexbox** for creating layouts  
 - Linking an external CSS file with HTML  
 - Positioning elements like header, search bar, and product sections  
-- Giving the page a clean and organized look with CSS  
+- Giving the page a clean and organized look with CSS
+
+  ##Live Demo
+You can view the project here 👇  
+👉 [Amazon Clone Live:(https://muskanjha961.github.io/css-project/)] 
 
 
 ##  How to view the project
